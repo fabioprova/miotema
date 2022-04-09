@@ -8,7 +8,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 		<script src="scrippete.js"></script>
-		<title>Nome</title>
+		<title><?php bloginfo("name") ?></title>
 
 
 	</head>
@@ -23,7 +23,7 @@
 			      <img src="img/logo.png" width="50px" height="50px" />
 			   </a></div>
 
-			   <div style="margin-right: auto;">NOME SITO</div>
+			   <div style="margin-right: auto;"><?php bloginfo("name") ?></div>
 
 			</div>
 
